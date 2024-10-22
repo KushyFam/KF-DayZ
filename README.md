@@ -1,6 +1,6 @@
 This is a work around reversing the changes made by the 1.26 concrete_panel_1 geometry change.
 
-1 - pull from backup of the 1.25 concrete_panel_1, if not available search discord servers- I don't think BI will let us share this asset here as they've cited performance as the reason for changing it. </br>
+1 - download the concrete_panel_125.p3d and use the config.cpp to see how to set up the class. </br>
 2 - set up as a custom asset with unique class name. </br>
 3 - extract layers with affected panels (might be easier for some depending on how you set up the layers). </br>
 4 - use a find and replace to swap concrete_panel_1 with your unique_class_replacement. </br>
